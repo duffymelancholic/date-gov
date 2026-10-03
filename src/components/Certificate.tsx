@@ -85,16 +85,19 @@ export function Certificate({
           Department of Going Out
         </p>
         <h2 className="mt-2 text-center font-serif text-3xl text-[#1b2a4a] sm:text-4xl">
-          Fancy Visitor Pass
+          Fancy Visitor Pass — Ivy
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-center font-mono text-[11px] uppercase tracking-[0.14em] text-[#b42318]">
-          Present upon arrival. The laptop does not accept excuses.
+          Present upon arrival. The laptop does not accept excuses. Ivy neither.
         </p>
         <p className="mx-auto mt-4 max-w-xl text-center text-sm leading-relaxed text-[#5c4a3a]">
-          This certifies that <span className="italic text-[#1b2a4a]">{you}</span>{" "}
-          may enter <span className="italic text-[#1b2a4a]">{me}</span>’s place,
-          steal the good pillow, pick the movie, and pretend this was a normal
-          invite. Theater: the bed. Screen: the laptop. Plot twist. Ta-da.
+          This certifies that{" "}
+          <span className="italic text-[#1b2a4a]">{you}</span> — known
+          affectionately as Poison Ivy — may enter{" "}
+          <span className="italic text-[#1b2a4a]">{me}</span>’s place, steal the
+          good pillow, pick the movie, and pretend this was a normal invite.
+          Theater: the bed. Screen: the laptop. Toxicity: zero. Charm: maximum.
+          Plot twist. Ta-da.
         </p>
 
         <p className="mx-auto mt-5 max-w-lg border-2 border-[#1b2a4a] bg-[#efe6d4] px-4 py-3 text-center">
@@ -131,7 +134,9 @@ export function Certificate({
             <dt className="font-mono text-[10px] tracking-widest text-[#8a6d2a] uppercase">
               Exit
             </dt>
-            <dd className="text-[#1b2a4a]">Whenever. The door is not a puzzle.</dd>
+            <dd className="text-[#1b2a4a]">
+              Whenever. The door is not a puzzle. No vines blocking the exit.
+            </dd>
           </div>
         </dl>
 
@@ -165,8 +170,8 @@ export function Certificate({
         ) : (
           <p className="mt-3 text-sm text-[#5c4a3a]">
             This saves a picture of the certificate, not a spreadsheet. A CSV
-            of “us hanging out” would be extremely unromantic. The laptop
-            agrees.
+            of “us hanging out” would be extremely unromantic. Ivy deserves
+            better stationery. The laptop agrees.
           </p>
         )}
       </div>

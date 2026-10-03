@@ -38,7 +38,7 @@ export function Seal({ size = 88 }: { size?: number }) {
         fontFamily="IBM Plex Mono, ui-monospace, monospace"
         letterSpacing="1.4"
       >
-        DEPT. OF GOING OUT
+        DEPT. OF IVY
       </text>
     </svg>
   );

@@ -15,10 +15,10 @@ export default function NotFound() {
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-10">
         <section className="paper-card">
           <p className="kicker">Error 404</p>
-          <h2 className="display-title">This page wandered off.</h2>
+          <h2 className="display-title">This page wandered off into the vines.</h2>
           <p className="lede">
-            You did not. You’re still invited. Come back to the door before the
-            snacks start a slideshow.
+            Ivy did not. You’re still invited. Come back to the door before the
+            snacks start a botanical slideshow.
           </p>
           <Link
             href="/"

@@ -39,8 +39,9 @@ export function TextMeNotice({ me, message }: TextMeNoticeProps) {
         Text {me} this exact message
       </h2>
       <p className="mt-2 text-sm text-[#1b2a4a]">
-        That’s how I know you said yes. I’ll reply with the pin. The website
-        cannot text me for you. You have to actually do the funny little text.
+        That’s how I know Poison Ivy said yes. I’ll reply with the pin. The
+        website cannot text me for you. You have to actually do the funny
+        little text.
       </p>
       <p ref={scriptRef} className="text-me-script">
         {message}

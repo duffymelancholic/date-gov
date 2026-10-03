@@ -108,8 +108,10 @@ export function OfficialLoading() {
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 py-10">
         <section className="paper-card">
           <p className="kicker">One sec</p>
-          <h2 className="display-title">Charging the laptop…</h2>
-          <p className="lede">This is a real errand. The pillows have notes.</p>
+          <h2 className="display-title">Charging the laptop for Ivy…</h2>
+          <p className="lede">
+            This is a real errand. The pillows have notes. The ivy is smug.
+          </p>
         </section>
       </main>
       <SiteFooter />

@@ -36,19 +36,21 @@ export function Ruling({ you, me, onApprove, onBack }: RulingProps) {
         backLabel="Wait. I skimmed. Take me back."
       />
       <p className="kicker">The bit where I ask</p>
-      <h2 className="display-title">So… come over?</h2>
+      <h2 className="display-title">So… come over, Ivy?</h2>
       <p className="lede">
         {you}, {me} has snacks, a laptop, a bed that doubles as every chair,
-        and a very normal amount of nerves. If you say yes I will pretend I
-        did not build a government for this. If you say no the laptop will
-        dim itself in protest. It’s dramatic. It’s a machine.
+        and a very normal amount of nerves. You’re Poison Ivy only in the
+        affectionate, slightly-dangerous sense — the good kind of trouble.
+        If you say yes I will pretend I did not build a government for this.
+        If you say no the laptop will dim itself in protest. It’s dramatic.
+        It’s a machine.
       </p>
 
       <p className="mt-6 text-center font-serif text-3xl leading-tight text-[#1b2a4a] sm:text-4xl">
         Come over tonight?
       </p>
       <p className="mt-2 text-center font-mono text-[11px] text-[#8a6d2a]">
-        Yes gets you a visitor pass. Stay Home gets a very silly memo.
+        Yes gets you a visitor pass. Stay Home gets a very silly botanical memo.
       </p>
 
       <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
@@ -70,7 +72,7 @@ export function Ruling({ you, me, onApprove, onBack }: RulingProps) {
 
       {denies > 0 && !exhausted ? (
         <p className="mt-4 text-center font-mono text-[11px] text-[#5c4a3a]">
-          Low-battery protests logged: {denies}. The pillows are taking notes.
+          Low-battery protests logged: {denies}. The vines are taking notes.
         </p>
       ) : null}
 

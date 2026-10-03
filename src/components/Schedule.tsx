@@ -54,11 +54,15 @@ export function Schedule({
 
   function confirm() {
     if (!date || !time) {
-      setError("The laptop needs both a day and a time. It’s needy like that.");
+      setError(
+        "The laptop needs both a day and a time. It’s needy like that. Even Poison Ivy has to pick a slot.",
+      );
       return;
     }
     if (date < today) {
-      setError("That day already happened. The snacks cannot time-travel.");
+      setError(
+        "That day already happened. The snacks cannot time-travel. The vines tried.",
+      );
       return;
     }
     onConfirm({ date, time });
@@ -73,11 +77,11 @@ export function Schedule({
         firstPageLabel="I missed the first page. Start me at the summons."
       />
       <p className="kicker">Appointment desk</p>
-      <h2 className="display-title">When should the laptop expect you?</h2>
+      <h2 className="display-title">When should the laptop expect Ivy?</h2>
       <p className="lede">
-        {you}, pick a day and a time. The Bureau will pencil you in, warn the
-        snacks, charge the laptop, and try very hard not to make the bed three
-        times.
+        {you}, pick a day and a time. The Bureau will pencil Poison Ivy in,
+        warn the snacks, charge the laptop, water nothing suspiciously leafy,
+        and try very hard not to make the bed three times.
       </p>
 
       <div className="mt-5 flex flex-wrap gap-2">
