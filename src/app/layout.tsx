@@ -21,9 +21,9 @@ const plexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Official Notice — Department of Going Out",
+  title: "Official Notice for Ivy — Department of Going Out",
   description:
-    "You’ve been summoned to laptop cinema. Not a real government. A real come over. Made by duffymelancholic.",
+    "Ivy (Poison Ivy, affectionately) has been summoned to laptop cinema. Not a real government. A real come over. Made by duffymelancholic.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

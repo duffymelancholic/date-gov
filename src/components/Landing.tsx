@@ -13,17 +13,20 @@ export function Landing({ you, me, returning = false, onBegin }: LandingProps) {
       </p>
       {returning ? (
         <p className="mb-2 font-mono text-[12px] text-[#b42318]">
-          You came back. The plants noticed. No judgment. Well, a little
-          judgment. Here’s the first page again, slower this time.
+          You came back. The plants noticed — especially the ivy. No judgment.
+          Well, a little judgment. Here’s the first page again, slower this
+          time.
         </p>
       ) : null}
-      <h2 className="display-title">You’ve been summoned to laptop cinema.</h2>
+      <h2 className="display-title">
+        You’ve been summoned to laptop cinema, Ivy.
+      </h2>
       <p className="lede">
-        Citizen <span className="italic">{you}</span>, the Bureau looked at
-        “going out,” then looked at {me}’s place, then remembered the theater
-        is a bed and the screen is a laptop. Pants may have an opinion.
-        Lighting is “whatever the lamp is doing.” The snacks have been
-        briefed.
+        Citizen <span className="italic">{you}</span> — aka Poison Ivy when
+        we’re being dramatic — the Bureau looked at “going out,” then looked at{" "}
+        {me}’s place, then remembered the theater is a bed and the screen is a
+        laptop. Pants may have an opinion. Lighting is “whatever the lamp is
+        doing.” The snacks have been briefed. Gloves not required.
       </p>
 
       <dl className="mt-6 grid gap-3 border-y border-dashed border-[#c9b8a0] py-4 font-mono text-[12px] text-[#1b2a4a] sm:grid-cols-2">
@@ -37,7 +40,9 @@ export function Landing({ you, me, returning = false, onBegin }: LandingProps) {
         </div>
         <div>
           <dt className="text-[#8a6d2a] uppercase tracking-widest">Dress</dt>
-          <dd className="mt-0.5 text-sm">Come-over casual. Socks encouraged.</dd>
+          <dd className="mt-0.5 text-sm">
+            Come-over casual. Socks encouraged. Vines optional.
+          </dd>
         </div>
         <div>
           <dt className="text-[#8a6d2a] uppercase tracking-widest">Exit policy</dt>
@@ -46,9 +51,10 @@ export function Landing({ you, me, returning = false, onBegin }: LandingProps) {
       </dl>
 
       <p className="mt-5 text-sm leading-relaxed text-[#5c4a3a]">
-        I cleaned the visible bits. I told the plants we might have company.
-        One of them nodded, I think. All that’s missing is you, walking in like
-        you own the trackpad.
+        I cleaned the visible bits. I told the plants we might have company —
+        specifically Ivy. One of them nodded, I think. The ivy in the corner
+        looked smug. All that’s missing is you, walking in like you own the
+        trackpad.
       </p>
 
       <button

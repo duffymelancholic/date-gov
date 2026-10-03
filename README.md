@@ -1,18 +1,24 @@
-# The Department of Going Out
+# The Department of Going Out — Ivy Edition
 
-A short, fake government portal that asks her to come over. Bed seats. Laptop cinema. No runaway button.
+A short, fake government portal that asks **Ivy** (Poison Ivy, affectionately) to come over. Bed seats. Laptop cinema. Botanical jokes. No runaway button.
 
 **Live site:** [https://date-gov.vercel.app](https://date-gov.vercel.app)
 
 Send that. Let the Bureau do the talking.
 
-## Personalize the names
+## Names
+
+Defaults are already set for Ivy:
 
 ```
-https://date-gov.vercel.app/?you=Sam&me=Alex
+https://date-gov.vercel.app/
 ```
 
-Leave the query off and it stays as placeholders: **you** and **me**.
+Optional overrides still work:
+
+```
+https://date-gov.vercel.app/?you=Ivy&me=Alex
+```
 
 ## Run it locally
 

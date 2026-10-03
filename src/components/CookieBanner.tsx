@@ -13,8 +13,9 @@ export function CookieBanner({ onAccept }: CookieBannerProps) {
             <span className="font-serif text-base text-[#1b2a4a]">
               We use cookies.
             </span>{" "}
-            Also I have real cookies at my place. They have been practicing a
-            little wave. It’s embarrassing for everyone.
+            Also I have real cookies at my place for Ivy. They have been
+            practicing a little wave. It’s embarrassing for everyone. Non-toxic.
+            Promise.
           </p>
           <div className="flex shrink-0 flex-col gap-2 sm:flex-row">
             <button
